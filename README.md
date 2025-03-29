@@ -1,2 +1,2 @@
 # portfolio
-A code for html to create a web-site commertial purpose
+Just a code to create website for personal use only
