@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.buttons 
+{
+    display: flex;
+    padding-top: 150px;
+    justify-content: center;
+    
+}
+   /* "about" button css */
+    #about {
+    padding-top: 35px;
+   }
+   /* on top padding on home botton */
+   #home
+   {
+    padding-top: 8%;
+   }
+   /* the animation effect on heading tag */
+   h1
+   {
+    background: linear-gradient(to right
+    #fc72ff ,#8f68ff, #487bff,#8f68ff, #fc72ff);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: animate-gradient 2.5s linear infinite;
+   }
+   @keyframes  animate-gradient {
+    to {
+        background-position: 200%;
+    }
+    /* animation is added but not working */
+   }
+.buttons button
+{
+    /* color: #5F99AE; */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    border-radius: 30px;
+    background-color: #e0e0e0;
+    box-shadow: 
+    8px 8px 15px #bebebe,
+    -8px -8px 15px #ffff;
+    cursor: pointer;
+    
+}
+.buttons button :active 
+{
+       box-shadow: 
+       inset 8px 8px 15px #bebebe,
+       inset -8px -8px 15px #ffff;
+
+}
+/* background image code starts here */
+ body{
+     background-image: url("tim-mossholder-07uiqD9LS6U-unsplash.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+ /* background image code ends here  */
+ /* header file css starts here */
+  .header
+ {
+    display: flex;
+    justify-items: auto;
+    color: #EBE5C2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    margin-top: 4%;
+   
+ 
+    
+ }
+ /* HEADER FILE CSSS ENDS HERE  */
+/* button size adjust ment  */
+.buttons button {
+  width: 150px;         /* Sets the button's width */
+  height: 50px;         /* Sets the button's height */
+  padding: 10px 20px;   /* Adds inner spacing */
+  font-size: 16px;      /* Adjusts text size */
+}
+/* button size ends here  */
+/* Home page css scripting starts  from here  */
+.buttons :hover
+{
+    color: rgb(21, 45, 66);
+    background-color: #b49e7c;
+    border-radius: 30px; 
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+}
+ 
+/* buttons hover function */
